@@ -9,6 +9,8 @@ This script is not test somewhere else but my PC (GNU/Linux where I've installed
 # What do you need?
 Python 2 installed (usually Python 2.7)
 
+Then, just download this project as ZIP file, extract it and open a Terminal
+
 ## Additional libraries?
 It uses those libraries:
 

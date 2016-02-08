@@ -2,7 +2,7 @@
 Simple Python script to download all photos of a user.
 
 ## Disclaimer
-This script is not test somewhere else but my PC (GNU/Linux where I've installed everything I need), so it may fail in other computers and/or operative systems.
+Script tested in my computer (GNU/Linux where I've installed everything I need) and also in another guy's computer with Windows, so it may (or not) fail in other computers and/or operative systems.
 
 **I do not accept any responsibility or liability for the accuracy, content, completeness, legality, or reliability of this project.** However, you're welcome to contribute if you want to ^_^
 
@@ -40,14 +40,14 @@ It's where you'd like to save all the images. The folder **must exist and be acc
 `"C:\Documents and Settings\myuser\My Documents\my_image_folder\"` for Windows
 
 
-**Wrong, notice the trailing slash:**
+**Wrong, notice the lack of trailing slash:**
 
 `/home/myuser/my_image_folder` for GNU/Linux
 
 `"C:\Documents and Settings\myuser\My Documents\my_image_folder"` for Windows
 
 ### Offset
-it's an optional parameter. The Fotolog pages are grouped by mosaics (30 photos each), so you can run the script from the beginnig (don't write any offset) and, if you stop it for example in `.../mosaic/300`, you can resume it by adding the number `300` afther the save path.
+It's an optional parameter. The Fotolog pages are grouped by mosaics (30 photos each), so you can run the script from the beginnig (don't write any offset) and, if you stop it for example in `.../mosaic/300`, you can resume it by adding the number `300` afther the save path.
 
 ## Full examples, without and with offset:
 

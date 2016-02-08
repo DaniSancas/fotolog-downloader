@@ -104,7 +104,7 @@ class MosaicCrawler:
                 print("Foto {} no encontrada".format(full_image_link))
             else:
                 # Save the photo!
-                f = open('{}{}'.format(self.savepath, filename), 'w+')
+                f = open('{}{}'.format(self.savepath, filename), 'wb')
                 f.write(downloadedfile.read())
                 f.close()
 
